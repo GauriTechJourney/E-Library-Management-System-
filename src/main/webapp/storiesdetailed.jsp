@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+    <link rel="stylesheet" href="com_mov_hor_sto.css">
+</head>
+<body>
+
+<%
+    String userToken = (String) session.getAttribute("userToken");
+    if (userToken == null) {
+        response.sendRedirect("login.jsp");
+        return;
+    }
+%>
+
+    <div class="navbar">
+        <div class="div_1">
+            <div class="banner">
+                <img class="bannerimg" src="/images/Banner.png" alt="Logo">
+            </div>
+        </div>
+        <div class="div_2">
+            <div class="labelbox">
+                <a class="nav_label" href="Home.jsp">Home</a>
+            </div>
+            <div class="labelbox">
+                <a class="nav_label" href="About.jsp">About us</a>
+            </div>
+            <div class="labelbox">
+                <a class="nav_label" href="Contact.jsp">Contact us</a>
+            </div>
+            <div class="labelbox">
+                <a class="nav_label" href="Categories.jsp">Categories</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="img_con">
+                <img src="/images/Stories_4.jpg" alt="">
+            </div>
+        </div>
+        <div class="text_1"> <h2>Name : Autumn Leaves</h2></div>
+        <div class="text_1"><h2>Author Name : Samantha</h2></div>
+        <div class="text_1"><h2>Category : Stories</h2></div>
+        <div class="text_2">
+            <a href="/pdf/Stories_4.pdf" target="_blank">Read  |</a>
+            <a href="${pageContext.request.contextPath}/down_4" target="_blank">Download</a>
+        </div>
+    </main>
+
+    <br>
+
+    <footer class="footer">
+        <p>Copyright&copy; Team SetTribe Techie | 2024</p>
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* This is the Navbar CSS */
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.div_1{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner{
+    height: 100%;
+    width: 45%;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.bannerimg{
+    height: 100%;
+    width: 100%;
+}
+
+.div_2{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 15px;
+}
+
+.labelbox{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav_label{
+    text-decoration: none;
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+
+.nav_label:hover{
+    text-decoration: underline;
+    color: #594db7;
+    font-size: 23px;
+}
+
+/* This is the Navbar CSS */
+
+.main{
+    height: 600px;
+    width: 100%;
+}
+
+.cover_container{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covers{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.images{
+    height: 500px;
+    width: 350px;
+    border: 6px solid #000000;
+    border-radius: 19px;
+}
+
+.text_container{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    border-radius: 8px;
+}
+
+/* This is the Footer CSS */
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #594db7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logout-btn{
+	background-color: red;
+	color:white;
+}
+
+.login-btn{
+	background-color:green;
+		color:white;
+}
+
+/* This is the Footer CSS */

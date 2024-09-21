@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.div_1{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner{
+    height: 100%;
+    width: 45%;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.bannerimg{
+    height: 100%;
+    width: 100%;
+}
+
+.div_2{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 15px;
+}
+
+.labelbox{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav_label{
+    text-decoration: none;
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+
+.nav_label:hover{
+    text-decoration: underline;
+    color: #594db7;
+    font-size: 23px;
+}
+
+
+.main{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ab_sec_1{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+.sec_part1{
+    height: 100%;
+    width: 70%;
+}
+
+.sec_part2{
+    height: 100%;
+    width: 30%;
+}
+
+.part_1_text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    font-family: monospace;
+    text-wrap: wrap;
+}
+
+.image_div{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image_{
+    height: 100%;
+    width: 100%;
+}
+
+.ab_sec_2{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+.part_2{
+    height: 100%;
+    width: 30%;
+}
+
+.part__2{
+    height: 100%;
+    width: 70%;
+}
+
+.part_2_text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 40px;
+    font-family: monospace;
+    text-wrap: wrap;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #594db7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+
